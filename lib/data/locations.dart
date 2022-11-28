@@ -1,0 +1,68 @@
+import 'package:hero_ani/data/reviews.dart';
+import 'package:hero_ani/model/location.dart';
+
+List<Location> locations = [
+  Location(
+    pName: 'MOUNTAINS',
+    img: 'assets/1.jpeg',
+    add: 'Mount Everest,Nepal,Himalayan',
+    rate: 5,
+    lat: 'NORTH LAT 24',
+    lon: 'EAST LNG 17',
+    reviews: Reviews.allReviews,
+  ),
+  Location(
+    pName: 'DARK FOREST',
+    img: 'assets/2.jpeg',
+    add: 'Aokigahara Forest, Japan',
+    rate: 4,
+    lat: 'NORTH LAT 24',
+    lon: 'EAST LNG 17',
+    reviews: Reviews.allReviews,
+  ),
+  Location(
+    pName: 'LOVELY STARS',
+    img: 'assets/3.jpeg',
+    add: 'The Atacama Desert, Chile',
+    rate: 3,
+    lat: 'NORTH LAT 24',
+    lon: 'EAST LNG 17',
+    reviews: Reviews.allReviews,
+  ),
+  Location(
+    pName: 'WATERFALL',
+    img: 'assets/4.jpeg',
+    add: 'Barkana Falls,Karnataka',
+    rate: 5,
+    lat: 'NORTH LAT 24',
+    lon: 'EAST LNG 17',
+    reviews: Reviews.allReviews,
+  ),
+  Location(
+    pName: 'CITY SITE',
+    img: 'assets/5.jpeg',
+    add: 'Giethoorn, Netherlands.',
+    rate: 2,
+    lat: 'NORTH LAT 24',
+    lon: 'EAST LNG 17',
+    reviews: Reviews.allReviews,
+  ),
+  Location(
+    pName: 'RIVER',
+    img: 'assets/6.jpeg',
+    add: 'Blue Nile,Africa',
+    rate: 5,
+    lat: 'NORTH LAT 24',
+    lon: 'EAST LNG 17',
+    reviews: Reviews.allReviews,
+  ),
+  Location(
+    pName: 'BRIDGE',
+    img: 'assets/7.jpeg',
+    add: 'Bhupen Hazarika Setu,Assam',
+    rate: 4,
+    lat: 'NORTH LAT 24',
+    lon: 'EAST LNG 17',
+    reviews: Reviews.allReviews,
+  ),
+];
